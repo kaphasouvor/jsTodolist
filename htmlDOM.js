@@ -119,10 +119,12 @@ var handlers = {
 };
 var view ={
     displayTodos: function(){
-        for (var i= 0; i<todoList.todos.length;i++)
         var todosUl = document.querySelector('ul');
+        todosUl.innerHTML = '';
+        for (var i= 0; i<todoList.todos.length;i++){
         var todoLi = document.createElement('li');
         todosUl.appendChild(todoLi);
+        }
     }
     
 };
