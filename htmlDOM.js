@@ -1,4 +1,4 @@
-// version07 html and dom
+// version08 html and dom
 
 // booleans: true or false
 var todoList = {
