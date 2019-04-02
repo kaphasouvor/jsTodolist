@@ -114,5 +114,16 @@ var handlers = {
         var toggleCompletedPositionInput = document.getElementById('toggleCompletedPositionInput');
         todoList.toggleCompleted(toggleCompletedPositionInput.valueAsNumber)
         toggleCompletedPositionInput.value = '';
-    }
+    },
+    
 };
+var view ={
+    displayTodos: function(){
+        var todosUl = document.querySelector('ul');
+        var todoLi = document.createElement('li');
+        todosUl.appendChild(todoLi);
+        
+    }
+    
+};
+
