@@ -188,5 +188,4 @@ var view = {
     }
 };
 
-
 view.setUpEventListeners();
